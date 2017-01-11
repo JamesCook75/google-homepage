@@ -1,0 +1,130 @@
+body {
+  background-color: white;
+  color: #222;
+  font-size: 13px;
+  font-family: 'Arial', sans-serif
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav {
+  padding: 0px 18px;
+}
+
+nav li {
+  float: right;
+  list-style-type: none;
+  color: black;
+  opacity: 0.75;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+li#gmail, li#images, li#apps{
+  margin: 0px 5px;
+  padding: 8px 5px;
+}
+
+li#signin {
+  display: block;
+  color: #fff;
+  border: 1px solid #4285f4;
+  background-color: #4285f4;
+  border-radius: 2px;
+  padding: 7px 13px;
+  margin-left: 10px;
+}
+
+li#signin a {
+  color: #fff;
+}
+
+#Glogo {
+  display: block;
+  //height:233px;
+  margin-top:175px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Searchbox { 
+  display: block;
+  text-align: center;
+  margin: 25px 0px; 
+  display: box-shadow: 10px 10px 10px black;
+  }
+
+#search { 
+  height: 35px;
+  width: 475px;
+  box-shadow: 10px 10px  #f8f8f8;
+  font-size: 30px;
+  }
+
+.Buttons {
+   text-align: center; 
+}
+
+.Buttons li {
+  display: inline-block;
+  text-decoration: none;
+  margin: 5px 5px;
+ }
+
+.Buttons input {
+  color: #757575;
+  font-size: 13px;
+  font-weight: bold;
+  border-color: #f8f8f8;
+  background-color: #f8f8f8;
+  width: 130px;
+  height: 40px;
+  box-shadow: 0 0 0;
+  border-radius: 4px;
+  padding: 2px;
+}
+
+footer {
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: auto;
+  background-color: #e4e4e4;
+  margin: 0 0;
+}
+
+footer li {
+  list-style-type: none;
+  margin: 10px 10px;
+  padding: 0px 20px;
+}
+
+footer li a {
+  text-decoration: none;
+  color: #666;
+}
+
+footer li a:hover {
+  text-decoration: underline;
+}
+
+#Lfooter li{
+  float: left;
+  text-align: left;
+  margin: 8px 0px;
+}
+
+#Rfooter li{
+  float: right;
+  margin: 8px 0px;
+}
